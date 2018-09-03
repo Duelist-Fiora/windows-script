@@ -25,9 +25,3 @@ dist/
 nbdist/
 .nb-gradle/
 
-###项目过程文件
-*.pid
-*.log
-tmp/
-# 指纹图片
-finger-img
