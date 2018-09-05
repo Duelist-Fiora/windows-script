@@ -6,8 +6,7 @@ for ($i = 0; $i -lt $pathList.Length; $i++) {
     echo $i')'$selectPath
 }
 $input = Read-Host
-while ($input -ge $pathList.Length)
-{
+while ($input -ge $pathList.Length) {
     echo 'input error, please input again...'
     $input = Read-Host
 }
