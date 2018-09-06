@@ -20,3 +20,5 @@ for ($i = 0; $i -lt $dir.Count; $i++) {
     git pull
 }
 cd $sourcePath
+echo 'please input enter to stop...'
+$input = Read-Host
